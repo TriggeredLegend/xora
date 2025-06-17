@@ -76,11 +76,15 @@ const Header = () => {
                   </LinkScroll>
                 </li>
 
-                <li className="nav-li">
-                  <NavLink title="Dashboard" />
-                  <div className="dot" />
-                  <NavLink title="Control Panel" />
-                </li>
+<li className="nav-li">
+  <a href="https://www.dash.devcurio.com" title="Dashboard" target="_blank" rel="noopener noreferrer">
+    Dashboard
+  </a>
+  <div className="dot" />
+  <a href="https://www.panel.devcurio.com" title="Control Panel" target="_blank" rel="noopener noreferrer">
+    Control Panel
+  </a>
+</li>
               </ul>
             </nav>
 
@@ -114,6 +118,7 @@ const Header = () => {
           />
         </button>
       </div>
+      {/* Closing tag for the container div */}
     </header>
   );
 };
